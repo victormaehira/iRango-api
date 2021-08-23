@@ -1,13 +1,13 @@
-package com.victor.lab.irango;
+package com.algaworks.algafood;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class IrangoApplication {
+public class AlgafoodApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IrangoApplication.class, args);
+		SpringApplication.run(AlgafoodApiApplication.class, args);
 	}
 
 }
