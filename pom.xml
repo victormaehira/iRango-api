@@ -17,7 +17,6 @@
 
   <properties>
     <java.version>12</java.version>
-    <modelmapper.version>2.3.0</modelmapper.version>
   </properties>
 
   <dependencies>
@@ -60,17 +59,6 @@
     	<groupId>org.apache.commons</groupId>
     	<artifactId>commons-lang3</artifactId>
     </dependency>
-    <dependency>
-    	<groupId>io.rest-assured</groupId>
-    	<artifactId>rest-assured</artifactId>
-    	<scope>test</scope>
-    </dependency>
-    
-	<dependency>
-		<groupId>org.modelmapper</groupId>
-		<artifactId>modelmapper</artifactId>
-		<version>${modelmapper.version}</version>
-	</dependency>
   </dependencies>
 
   <build>
@@ -78,9 +66,6 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
-      </plugin>
-      <plugin>
-      	<artifactId>maven-failsafe-plugin</artifactId>
       </plugin>
     </plugins>
   </build>
