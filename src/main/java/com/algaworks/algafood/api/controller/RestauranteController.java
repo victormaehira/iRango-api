@@ -65,7 +65,7 @@ public class RestauranteController {
 	
 	@PutMapping("/{restauranteId}")
 	public Restaurante atualizar(@PathVariable Long restauranteId,
-			@RequestBody @Valid Restaurante restaurante) {
+			@RequestBody Restaurante restaurante) {
 		try {
 			Restaurante restauranteAtual = cadastroRestaurante.buscarOuFalhar(restauranteId);
 			
